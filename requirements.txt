@@ -1,29 +1,11 @@
-# Core Frameworks
-streamlit>=1.25.0
-fastapi>=0.110.0
-uvicorn>=0.27.0
-
-# HTTP Requests
-requests>=2.25.0
-
-# JWT and Auth
-PyJWT>=2.0.0
-python-jose>=3.3.0
-passlib[bcrypt]>=1.7.4
-authlib>=1.2.0
-
-# OAuth and Environment Handling
-python-dotenv>=1.0.0
-
-# Time and Date Utilities
-pytz>=2021.1
-
-# Database
-sqlalchemy>=1.4.0
-
-# CORS and Starlette
-starlette>=0.36.0
-
-# Optional (for SQLite drivers on some systems)
-certifi>=2021.5.30
+fastapi
+uvicorn
+streamlit
+sqlalchemy
+requests
+passlib[bcrypt]
+python-dotenv
+authlib
+python-jose
+pytz
 
