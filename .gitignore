@@ -1,23 +1,20 @@
-# Python
-__pycache__/
-*.pyc
+# Virtual environment
+sl/
+venv/
+env/
 
-# Environment
+# Secrets
 .env
 .env.*
+
+# Database
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
 
 # OS-specific
 .DS_Store
 Thumbs.db
 
-# Virtual environment (Linux/macOS)
-venv/
-env/
-sl/  # your virtualenv folder
-
-# VSCode or other IDE settings
-.vscode/
-
-# Streamlit logs/cache
-.streamlit/config.toml
-.streamlit/secrets.toml
