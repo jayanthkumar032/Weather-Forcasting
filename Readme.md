@@ -1,28 +1,28 @@
-# 🌦️ Weather Forecast App
+# Weather Forecast App
 
 A modern and secure Weather Forecast Web App built with **Streamlit** and **FastAPI**. Users can sign up or log in using **email**, **mobile**, or **Google OAuth**, and then search real-time weather forecasts for cities around the world.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔐 **User Authentication**
+- **User Authentication**
   - Login & Sign-up via Email or Mobile
   - Google OAuth login
   - JWT-based session handling
 
-- 🌤️ **Weather Dashboard**
+- **Weather Dashboard**
   - Real-time weather data via WeatherAPI
   - Search by city
   - Displays temperature, humidity, pressure, wind speed, and description
 
-- 💾 **Session Persistence**
+- **Session Persistence**
   - User state managed via `st.session_state`
   - Supports logout and rerun logic
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer       | Tools                     |
 |-------------|----------------------------|
@@ -34,7 +34,7 @@ A modern and secure Weather Forecast Web App built with **Streamlit** and **Fast
 
 ---
 
-## 📦 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 
